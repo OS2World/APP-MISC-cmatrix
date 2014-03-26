@@ -1,0 +1,30 @@
+                          Upload Information Template for Hobbes.nmsu.edu
+                          ===============================================
+
+        Archive Filename: cmatrix-1_1b-os2.zip
+       Short Description:  cmatrix is a console program showing the well known Matrix screen with moving chars.
+        Long Description:  cmatrix shows an animated Matrix screen with tumbling characters in a console
+                            window. Color, speed configurable. This program needs ncurses in order to run.
+                            Full source is included. Released under the terms of the General public license.
+
+      Proposed directory
+           for placement:   /pub/os2/apps/misc 
+
+               Your name:  Chris Wohlgemuth
+           Email address:   See web page
+    Program contact name: (same)
+   Program contact email: (same)
+             Program URL: http://www.geocities.com/SiliconValley/Sector/5785/
+
+      Would you like the
+   contact email address
+    included in listings? yes
+
+Operating System/Version: Tested on Warp 4, any 32bit version should work
+ Additional requirements:   Ncurses 5.2, EMX runtime libs fix 3
+
+                Replaces: (none)
+
+
+
+

@@ -1,0 +1,94 @@
+This file contains any messages produced by compilers while
+running configure, to aid debugging if configure makes a mistake.
+
+configure:527: checking for path separator
+configure:555: checking for Cygwin environment
+configure:571: gcc.exe -c -O2 -m486 -Zmt  conftest.c 1>&5
+configure: In function `main':
+configure:567: `__CYGWIN32__' undeclared (first use in this function)
+configure:567: (Each undeclared identifier is reported only once
+configure:567: for each function it appears in.)
+configure: failed program was:
+#line 560 "configure"
+#include "confdefs.h"
+
+int main() {
+
+#ifndef __CYGWIN__
+#define __CYGWIN__ __CYGWIN32__
+#endif
+return __CYGWIN__;
+; return 0; }
+configure:588: checking for mingw32 environment
+configure:600: gcc.exe -c -O2 -m486 -Zmt  conftest.c 1>&5
+configure: In function `main':
+configure:596: `__MINGW32__' undeclared (first use in this function)
+configure:596: (Each undeclared identifier is reported only once
+configure:596: for each function it appears in.)
+configure: failed program was:
+#line 593 "configure"
+#include "confdefs.h"
+
+int main() {
+return __MINGW32__;
+; return 0; }
+configure:617: checking for EMX/OS2 environment
+configure:661: checking for executable suffix
+configure:732: checking for a BSD compatible install
+configure:787: checking whether build environment is sane
+configure:844: checking whether make sets ${MAKE}
+configure:890: checking for working aclocal
+configure:903: checking for working autoconf
+configure:916: checking for working automake
+configure:929: checking for working autoheader
+configure:942: checking for working makeinfo
+configure:962: checking for gcc
+configure:1079: checking whether the C compiler (gcc.exe -O2 -m486 -Zmt -s -Zmt -Zcrtdll -Zsysv-signals -Zbin-files) works
+configure:1095: gcc.exe -o conftest.exe -O2 -m486 -Zmt  -s -Zmt -Zcrtdll -Zsysv-signals -Zbin-files conftest.c  1>&5
+configure:1121: checking whether the C compiler (gcc.exe -O2 -m486 -Zmt -s -Zmt -Zcrtdll -Zsysv-signals -Zbin-files) is a cross-compiler
+configure:1126: checking whether we are using GNU C
+configure:1135: gcc.exe -E conftest.c
+configure:1154: checking whether gcc.exe accepts -g
+configure:1197: checking for a BSD compatible install
+configure:1252: checking whether make sets ${MAKE}
+configure:1280: checking for main in -lncurses
+configure:1295: gcc.exe -o conftest.exe -O2 -m486 -Zmt  -s -Zmt -Zcrtdll -Zsysv-signals -Zbin-files conftest.c -lncurses   1>&5
+configure:1324: checking how to run the C preprocessor
+configure:1407: checking for ANSI C header files
+configure:1421: gcc.exe -E  conftest.c >/dev/null 2>conftest.out
+configure:1488: gcc.exe -o conftest.exe -O2 -m486 -Zmt  -s -Zmt -Zcrtdll -Zsysv-signals -Zbin-files conftest.c -lncurses  1>&5
+configure:1515: checking for fcntl.h
+configure:1526: gcc.exe -E  conftest.c >/dev/null 2>conftest.out
+configure:1515: checking for sys/ioctl.h
+configure:1526: gcc.exe -E  conftest.c >/dev/null 2>conftest.out
+configure:1515: checking for unistd.h
+configure:1526: gcc.exe -E  conftest.c >/dev/null 2>conftest.out
+configure:1515: checking for termios.h
+configure:1526: gcc.exe -E  conftest.c >/dev/null 2>conftest.out
+configure:1515: checking for termio.h
+configure:1526: gcc.exe -E  conftest.c >/dev/null 2>conftest.out
+configure:1555: checking return type of signal handlers
+configure:1577: gcc.exe -c -O2 -m486 -Zmt  conftest.c 1>&5
+configure:1598: checking for putenv
+configure:1626: gcc.exe -o conftest.exe -O2 -m486 -Zmt  -s -Zmt -Zcrtdll -Zsysv-signals -Zbin-files conftest.c -lncurses  1>&5
+configure:1656: checking for curses.h
+configure:1667: gcc.exe -E  conftest.c >/dev/null 2>conftest.out
+configure:1656: checking for ncurses.h
+configure:1667: gcc.exe -E  conftest.c >/dev/null 2>conftest.out
+configure:1663: ncurses.h: No such file or directory
+configure: failed program was:
+#include <sys/types.h>
+#line 1662 "configure"
+#include "confdefs.h"
+#include <ncurses.h>
+configure:1696: checking for tgetent in -lncurses
+configure:1715: gcc.exe -o conftest.exe -O2 -m486 -Zmt  -s -Zmt -Zcrtdll -Zsysv-signals -Zbin-files conftest.c -lncurses  -lncurses  1>&5
+configure:1835: checking for use_default_colors in -lncurses
+configure:1854: gcc.exe -o conftest.exe -O2 -m486 -Zmt  -s -Zmt -Zcrtdll -Zsysv-signals -Zbin-files conftest.c -lncurses  -lncurses  1>&5
+configure:1885: checking for consolechars
+configure:1925: checking for setfont
+configure:1994: checking for /usr/lib/kbd/consolefonts
+configure:1994: checking for /usr/share/consolefonts
+configure:2042: checking for mkfontdir
+configure:2084: checking for /usr/lib/X11/fonts/misc
+configure:2084: checking for /usr/X11R6/lib/X11/fonts/misc

@@ -1,0 +1,46 @@
+This is the OS/2 version of cmatrix
+-----------------------------
+
+You need ncurses 5.2 (ncurses-5_2-os2) and the EMX runtime
+libs fix 3 to run this program.
+Get it from http://hobbes.nmsu.edu.
+
+Just install ncurses and add the following lines to your config.sys:
+
+SET TERM=ansi-color-3      <-- use your favorite here
+SET TERMINFO=I:/XFree86/share/terminfo <-- adapt this
+
+Start cmatrix with the -f switch like this:
+
+cmatrix -fb
+
+
+Bugs and limitations
+-----------------
+Ask the author of cmatrix ;-).
+I only tested this with cmd.exe and eterm. Should work with any
+terminal though but don't ask me how to configure that.
+You can't use the matrix font in cmd.exe.
+
+
+How to compile
+-------------
+I used
+
+-ash
+-gnu make 3.76.1
+-autoconf 2.13
+-ncurses 5.2
+
+cd into the source dir and run configure. Then run make, that's all.
+If anything goes wrong try to rebuild your configure skript using autoconf.
+
+I only changed two minor things in the source. The unmodified files are
+in Org_source.
+
+
+-------------------------
+Chris Wohlgemuth  16.08.2001
+
+http://www.geocities.com/SiliconValley/Sector/5785/
+
